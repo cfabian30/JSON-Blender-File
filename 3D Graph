@@ -1,0 +1,371 @@
+import json
+import bpy
+import random
+
+#json file from https://corgis-edu.github.io/corgis/json/state_crime/
+bar_height = 1
+#range is 0 - 59 this equates to 1960-2019
+#json_list_number = random.randint(0, 59)
+json_list_number = (59)
+with open('/Users/ciarafabian/Desktop/UMD/api data/maryland_data.json') as f:
+    j = json.load (f)
+    #Go through list find assault data (change number of each data_num ex set first number of list to 3 to populate a different data set
+    data_num_year = j[json_list_number]['Year']
+    data_num_population = j[json_list_number]['Data']['Population']
+    data_num_Assaults = j[json_list_number]['Data']['Totals']['Violent']['Assault']
+    data_num_murders = j[json_list_number]['Data']['Totals']['Violent']['Murder']
+    data_num_rape = j[json_list_number]['Data']['Totals']['Violent']['Rape']
+    data_num_robbery = j[json_list_number]['Data']['Totals']['Violent']['Robbery']
+    #print(data_num_year)
+    
+    #set data to int
+    Assault_data = int(data_num_Assaults)
+    murder_data = int(data_num_murders)
+    rape_data = int(data_num_rape)
+    robbery_data = int(data_num_robbery)
+    #set data to string
+    Assault_data_string = str(data_num_Assaults)
+    murder_data_string = str(data_num_murders)
+    rape_data_string = str(data_num_rape)
+    robbery_data_string = str(data_num_robbery)
+    year_data_string = str(data_num_year)
+    population_data_string = str(data_num_population)
+    #print(type(Assault_data_string))
+    
+    #https://www.youtube.com/watch?v=Xrixs_XuDQo
+    #https://www.youtube.com/watch?v=Xrixs_XuDQo
+
+    #create a cube
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    bar_assault=bpy.context.object
+    
+    for vert in bar_assault.data.vertices:
+        #change cube z coordinates 
+        vert.co[2] += 0.5
+        #set X placement of bar
+        vert.co[0] += 5
+    
+    #height of bar
+    bar_assault.scale = (1 ,bar_height, (Assault_data // 500))
+    #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("MaterialBar")
+    # create material
+    mat = bpy.data.materials.new(name="MaterialBar")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (1, 0, 0.0192828, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+
+
+
+
+    #Add Text
+    bpy.ops.object.text_add()
+    
+    
+    
+   #set position of text for first bar 
+    bpy.ops.transform.rotate(value=-1.5708, orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.rotate(value=1.5708, orient_axis='Y', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.translate(value=(4, 1.11379, 0), orient_axis_ortho='X')
+
+
+
+    #color
+    ob = bpy.context.active_object
+    # access material
+    mat = bpy.data.materials.get("MaterialText")
+    # add material
+    mat = bpy.data.materials.new(name="MaterialText")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    #set materialcolor
+    bpy.context.object.active_material.diffuse_color = (1, 0.97619, 0.946188, 1)
+    
+
+
+    
+    #text title [name of event and numeber from json file
+    bpy.context.object.data.body = ('Assault Events:') + (Assault_data_string)
+    
+    
+    
+    ####################The following is for the next bar
+    
+
+
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    bar_murder=bpy.context.object
+    
+    for vert in bar_murder.data.vertices:
+        #change cube z coordinates 
+        vert.co[2] += 0.5
+        #set X placement of bar
+        vert.co[0] += 10
+    
+    #height of bar
+    bar_murder.scale = (1 ,bar_height, (murder_data // 500))
+    #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("MaterialBar2")
+    # create material
+    mat = bpy.data.materials.new(name="MaterialBar2")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (0.8, 0.00301904, 0.770523, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+
+
+
+    #Add Text
+    bpy.ops.object.text_add()
+    
+    
+    
+    #set position of text for first bar 
+    bpy.ops.transform.rotate(value=-1.5708, orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.rotate(value=1.5708, orient_axis='Y', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.translate(value=(9, 1.11379, 0), orient_axis_ortho='X')
+
+
+    #color
+    ob = bpy.context.active_object
+    # access material
+    mat = bpy.data.materials.get("MaterialText2")
+    # add material
+    mat = bpy.data.materials.new(name="MaterialText2")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    #set materialcolor
+    bpy.context.object.active_material.diffuse_color = (1, 0.97619, 0.946188, 1)
+
+
+    
+    #text title [name of event and numeber from json file
+    bpy.context.object.data.body = ('Murder Events:') + (murder_data_string)
+    
+
+   #########This is for the next bar of data (rape data)
+   
+   #create a cube
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    bar_rape=bpy.context.object
+    
+    for vert in bar_rape.data.vertices:
+        #change cube z coordinates 
+        vert.co[2] += 0.5
+        #set X placement of bar
+        vert.co[0] += 15
+    
+    #height of bar
+    bar_rape.scale = (1 ,bar_height, (rape_data // 500))
+    #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("MaterialBar3")
+    # create material
+    mat = bpy.data.materials.new(name="MaterialBar3")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (0, 0.8, 0.00447227, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+
+
+
+
+    #Add Text
+    bpy.ops.object.text_add()
+    
+    
+    
+   #set position of text for bar 
+    bpy.ops.transform.rotate(value=-1.5708, orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.rotate(value=1.5708, orient_axis='Y', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.translate(value=(14, 1.11379, 0), orient_axis_ortho='X')
+
+
+
+    #color
+    ob = bpy.context.active_object
+    # access material
+    mat = bpy.data.materials.get("MaterialText3")
+    # add material
+    mat = bpy.data.materials.new(name="MaterialText3")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    #set materialcolor
+    bpy.context.object.active_material.diffuse_color = (1, 0.97619, 0.946188, 1)
+
+
+    
+    #text title [name of event and numeber from json file
+    bpy.context.object.data.body = ('Rape Events:') + (rape_data_string)
+    
+    
+    
+    
+    
+   ##############robbery data start
+   #create a cube
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    bar_robbery=bpy.context.object
+    
+    for vert in bar_robbery.data.vertices:
+        #change cube z coordinates 
+        vert.co[2] += 0.5
+        #set X placement of bar
+        vert.co[0] += 20
+    
+    #height of bar
+    bar_robbery.scale = (1 ,bar_height, (robbery_data // 500))
+    #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("MaterialBar4")
+    # create material
+    mat = bpy.data.materials.new(name="MaterialBar4")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (0, 0.00266059, 0.8, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+
+
+
+
+    #Add Text
+    bpy.ops.object.text_add()
+    
+    
+    
+   #set position of text for first bar 
+    bpy.ops.transform.rotate(value=-1.5708, orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.rotate(value=1.5708, orient_axis='Y', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.translate(value=(19, 1.11379, 0), orient_axis_ortho='X')
+
+
+
+    #color
+    ob = bpy.context.active_object
+    # access material
+    mat = bpy.data.materials.get("MaterialText4")
+    # add material
+    mat = bpy.data.materials.new(name="MaterialText4")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    #set materialcolor
+    bpy.context.object.active_material.diffuse_color = (1, 0.97619, 0.946188, 1)
+
+
+    
+    #text title [name of event and numeber from json file
+    bpy.context.object.data.body = ('Robbery Events:') + (robbery_data_string)
+    
+    
+    #####This line is for other text such as year and population
+    
+     #Add Text
+    bpy.ops.object.text_add()
+    bpy.ops.transform.translate(value=(4.43762, -2.578629, 0), orient_axis_ortho='X')
+    #set text location
+    #color
+    ob = bpy.context.active_object
+    # access material
+    mat = bpy.data.materials.get("MaterialText5")
+    # add material
+    mat = bpy.data.materials.new(name="MaterialText5")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    #set materialcolor
+    bpy.context.object.active_material.diffuse_color = (0.8, 0, 0.024325, 1)
+    
+    bpy.context.object.data.body = ('YEAR : ')  + (year_data_string)
+    
+    
+    
+    
+    #####population text
+    #Add Text
+    bpy.ops.object.text_add()
+    bpy.ops.transform.translate(value=(4.43762, -4.578629, 0), orient_axis_ortho='X')
+    #set text location
+    #color
+    ob = bpy.context.active_object
+    # access material
+    mat = bpy.data.materials.get("MaterialText6")
+    # add material
+    mat = bpy.data.materials.new(name="MaterialText6")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    #set materialcolor
+    bpy.context.object.active_material.diffuse_color = (0.8, 0, 0.024325, 1)
+    
+    bpy.context.object.data.body = ('POPULATION : ')  + (population_data_string)
+    
+    
+    ####Add backdrop for graph
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    backdrop = bpy.context.object
+    
+    
+    #scale
+    backdrop.scale = (1 ,25, 35)
+    #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("Materialbackground")
+    # create material
+    mat = bpy.data.materials.new(name="Materialbackground")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (0, 0, 0, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+
+    
+    
+    #position
+    bpy.ops.transform.translate(value=(13.4494, 1.92069, 16.5), orient_axis_ortho='X')
+    bpy.ops.transform.rotate(value=1.5708, orient_axis='Z')
+    
+    
+    #base of chart 
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    backdrop = bpy.context.object
+    #scale
+    backdrop.scale = (1 ,8, 25)
+      #position
+    bpy.ops.transform.rotate(value=1.5708, orient_axis='Y')
+    bpy.ops.transform.translate(value=(13.4912, -1.46662, -0.520912), orient_axis_ortho='X')
+ #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("Materialbase")
+    # create material
+    mat = bpy.data.materials.new(name="Materialbase")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (0.01, 0.01, 0.01, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+
+
+    
+
+
+
+    
+
+    

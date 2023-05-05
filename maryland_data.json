@@ -1,0 +1,2220 @@
+[{
+    "State": "Maryland",
+    "Year": 1960,
+    "Data": {
+      "Population": 3100689,
+      "Rates": {
+        "Property": {
+          "All": 1518.8,
+          "Burglary": 366.4,
+          "Larceny": 968.3,
+          "Motor": 184.1
+        },
+        "Violent": {
+          "All": 151.3,
+          "Assault": 101.3,
+          "Murder": 5.4,
+          "Rape": 7.2,
+          "Robbery": 37.3
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 47092,
+          "Burglary": 11360,
+          "Larceny": 30024,
+          "Motor": 5708
+        },
+        "Violent": {
+          "All": 4691,
+          "Assault": 3141,
+          "Murder": 168,
+          "Rape": 224,
+          "Robbery": 1158
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1961,
+    "Data": {
+      "Population": 3188000,
+      "Rates": {
+        "Property": {
+          "All": 1634.4,
+          "Burglary": 387.3,
+          "Larceny": 1049.6,
+          "Motor": 197.5
+        },
+        "Violent": {
+          "All": 155.6,
+          "Assault": 101.1,
+          "Murder": 4.5,
+          "Rape": 8.2,
+          "Robbery": 41.7
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 52106,
+          "Burglary": 12348,
+          "Larceny": 33461,
+          "Motor": 6297
+        },
+        "Violent": {
+          "All": 4959,
+          "Assault": 3224,
+          "Murder": 143,
+          "Rape": 262,
+          "Robbery": 1330
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1962,
+    "Data": {
+      "Population": 3191000,
+      "Rates": {
+        "Property": {
+          "All": 1736.4,
+          "Burglary": 403.8,
+          "Larceny": 1137.5,
+          "Motor": 195.1
+        },
+        "Violent": {
+          "All": 154.0,
+          "Assault": 97.6,
+          "Murder": 5.7,
+          "Rape": 8.7,
+          "Robbery": 42.0
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 55410,
+          "Burglary": 12886,
+          "Larceny": 36298,
+          "Motor": 6226
+        },
+        "Violent": {
+          "All": 4915,
+          "Assault": 3113,
+          "Murder": 183,
+          "Rape": 279,
+          "Robbery": 1340
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1963,
+    "Data": {
+      "Population": 3289000,
+      "Rates": {
+        "Property": {
+          "All": 1981.4,
+          "Burglary": 485.5,
+          "Larceny": 1258.3,
+          "Motor": 237.6
+        },
+        "Violent": {
+          "All": 160.6,
+          "Assault": 92.6,
+          "Murder": 6.3,
+          "Rape": 9.4,
+          "Robbery": 52.3
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 65169,
+          "Burglary": 15968,
+          "Larceny": 41387,
+          "Motor": 7814
+        },
+        "Violent": {
+          "All": 5283,
+          "Assault": 3047,
+          "Murder": 207,
+          "Rape": 308,
+          "Robbery": 1721
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1964,
+    "Data": {
+      "Population": 3432000,
+      "Rates": {
+        "Property": {
+          "All": 2170.0,
+          "Burglary": 545.9,
+          "Larceny": 1354.1,
+          "Motor": 270.0
+        },
+        "Violent": {
+          "All": 217.0,
+          "Assault": 140.7,
+          "Murder": 6.7,
+          "Rape": 10.1,
+          "Robbery": 59.5
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 74473,
+          "Burglary": 18735,
+          "Larceny": 46471,
+          "Motor": 9267
+        },
+        "Violent": {
+          "All": 7446,
+          "Assault": 4830,
+          "Murder": 229,
+          "Rape": 346,
+          "Robbery": 2041
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1965,
+    "Data": {
+      "Population": 3519000,
+      "Rates": {
+        "Property": {
+          "All": 2474.3,
+          "Burglary": 638.6,
+          "Larceny": 1529.7,
+          "Motor": 306.0
+        },
+        "Violent": {
+          "All": 285.1,
+          "Assault": 181.5,
+          "Murder": 6.7,
+          "Rape": 13.9,
+          "Robbery": 82.9
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 87072,
+          "Burglary": 22474,
+          "Larceny": 53831,
+          "Motor": 10767
+        },
+        "Violent": {
+          "All": 10032,
+          "Assault": 6388,
+          "Murder": 236,
+          "Rape": 489,
+          "Robbery": 2919
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1966,
+    "Data": {
+      "Population": 3613000,
+      "Rates": {
+        "Property": {
+          "All": 2852.6,
+          "Burglary": 754.3,
+          "Larceny": 1668.1,
+          "Motor": 430.2
+        },
+        "Violent": {
+          "All": 311.0,
+          "Assault": 164.9,
+          "Murder": 7.0,
+          "Rape": 15.3,
+          "Robbery": 123.7
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 103066,
+          "Burglary": 27254,
+          "Larceny": 60270,
+          "Motor": 15542
+        },
+        "Violent": {
+          "All": 11236,
+          "Assault": 5958,
+          "Murder": 254,
+          "Rape": 554,
+          "Robbery": 4470
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1967,
+    "Data": {
+      "Population": 3682000,
+      "Rates": {
+        "Property": {
+          "All": 3436.2,
+          "Burglary": 1014.8,
+          "Larceny": 1932.3,
+          "Motor": 489.1
+        },
+        "Violent": {
+          "All": 474.1,
+          "Assault": 234.5,
+          "Murder": 8.0,
+          "Rape": 19.6,
+          "Robbery": 212.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 126522,
+          "Burglary": 37366,
+          "Larceny": 71147,
+          "Motor": 18009
+        },
+        "Violent": {
+          "All": 17458,
+          "Assault": 8636,
+          "Murder": 293,
+          "Rape": 720,
+          "Robbery": 7809
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1968,
+    "Data": {
+      "Population": 3757000,
+      "Rates": {
+        "Property": {
+          "All": 3956.8,
+          "Burglary": 1301.2,
+          "Larceny": 2050.6,
+          "Motor": 605.0
+        },
+        "Violent": {
+          "All": 623.0,
+          "Assault": 312.0,
+          "Murder": 9.3,
+          "Rape": 26.0,
+          "Robbery": 275.6
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 148656,
+          "Burglary": 48886,
+          "Larceny": 77041,
+          "Motor": 22729
+        },
+        "Violent": {
+          "All": 23405,
+          "Assault": 11722,
+          "Murder": 350,
+          "Rape": 978,
+          "Robbery": 10355
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1969,
+    "Data": {
+      "Population": 3765000,
+      "Rates": {
+        "Property": {
+          "All": 3928.0,
+          "Burglary": 1114.7,
+          "Larceny": 2220.7,
+          "Motor": 592.6
+        },
+        "Violent": {
+          "All": 645.3,
+          "Assault": 311.7,
+          "Murder": 9.3,
+          "Rape": 29.9,
+          "Robbery": 294.4
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 147891,
+          "Burglary": 41970,
+          "Larceny": 83610,
+          "Motor": 22311
+        },
+        "Violent": {
+          "All": 24295,
+          "Assault": 11734,
+          "Murder": 350,
+          "Rape": 1125,
+          "Robbery": 11086
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1970,
+    "Data": {
+      "Population": 3922399,
+      "Rates": {
+        "Property": {
+          "All": 4016.1,
+          "Burglary": 1051.2,
+          "Larceny": 2417.3,
+          "Motor": 547.6
+        },
+        "Violent": {
+          "All": 624.9,
+          "Assault": 253.3,
+          "Murder": 9.2,
+          "Rape": 23.9,
+          "Robbery": 338.6
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 157528,
+          "Burglary": 41234,
+          "Larceny": 94816,
+          "Motor": 21478
+        },
+        "Violent": {
+          "All": 24512,
+          "Assault": 9934,
+          "Murder": 362,
+          "Rape": 936,
+          "Robbery": 13280
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1971,
+    "Data": {
+      "Population": 4000000,
+      "Rates": {
+        "Property": {
+          "All": 4177.8,
+          "Burglary": 1122.5,
+          "Larceny": 2528.5,
+          "Motor": 526.8
+        },
+        "Violent": {
+          "All": 621.4,
+          "Assault": 259.9,
+          "Murder": 11.2,
+          "Rape": 24.9,
+          "Robbery": 325.4
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 167110,
+          "Burglary": 44900,
+          "Larceny": 101138,
+          "Motor": 21072
+        },
+        "Violent": {
+          "All": 24857,
+          "Assault": 10396,
+          "Murder": 449,
+          "Rape": 997,
+          "Robbery": 13015
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1972,
+    "Data": {
+      "Population": 4056000,
+      "Rates": {
+        "Property": {
+          "All": 3977.5,
+          "Burglary": 1111.7,
+          "Larceny": 2331.6,
+          "Motor": 534.2
+        },
+        "Violent": {
+          "All": 651.2,
+          "Assault": 288.6,
+          "Murder": 12.5,
+          "Rape": 26.0,
+          "Robbery": 324.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 161328,
+          "Burglary": 45090,
+          "Larceny": 94571,
+          "Motor": 21667
+        },
+        "Violent": {
+          "All": 26412,
+          "Assault": 11706,
+          "Murder": 509,
+          "Rape": 1053,
+          "Robbery": 13144
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1973,
+    "Data": {
+      "Population": 4070000,
+      "Rates": {
+        "Property": {
+          "All": 4150.3,
+          "Burglary": 1144.6,
+          "Larceny": 2457.9,
+          "Motor": 547.8
+        },
+        "Violent": {
+          "All": 641.1,
+          "Assault": 300.4,
+          "Murder": 11.3,
+          "Rape": 27.8,
+          "Robbery": 301.6
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 168917,
+          "Burglary": 46584,
+          "Larceny": 100036,
+          "Motor": 22297
+        },
+        "Violent": {
+          "All": 26093,
+          "Assault": 12228,
+          "Murder": 460,
+          "Rape": 1131,
+          "Robbery": 12274
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1974,
+    "Data": {
+      "Population": 4094000,
+      "Rates": {
+        "Property": {
+          "All": 4931.0,
+          "Burglary": 1402.9,
+          "Larceny": 2944.8,
+          "Motor": 583.3
+        },
+        "Violent": {
+          "All": 719.1,
+          "Assault": 316.9,
+          "Murder": 11.7,
+          "Rape": 29.8,
+          "Robbery": 360.6
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 201877,
+          "Burglary": 57433,
+          "Larceny": 120562,
+          "Motor": 23882
+        },
+        "Violent": {
+          "All": 29439,
+          "Assault": 12974,
+          "Murder": 481,
+          "Rape": 1219,
+          "Robbery": 14765
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1975,
+    "Data": {
+      "Population": 4098000,
+      "Rates": {
+        "Property": {
+          "All": 5197.7,
+          "Burglary": 1413.2,
+          "Larceny": 3267.6,
+          "Motor": 516.9
+        },
+        "Violent": {
+          "All": 709.8,
+          "Assault": 323.4,
+          "Murder": 10.7,
+          "Rape": 31.5,
+          "Robbery": 344.2
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 213002,
+          "Burglary": 57912,
+          "Larceny": 133908,
+          "Motor": 21182
+        },
+        "Violent": {
+          "All": 29087,
+          "Assault": 13254,
+          "Murder": 437,
+          "Rape": 1289,
+          "Robbery": 14107
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1976,
+    "Data": {
+      "Population": 4144000,
+      "Rates": {
+        "Property": {
+          "All": 5031.0,
+          "Burglary": 1359.9,
+          "Larceny": 3242.2,
+          "Motor": 428.9
+        },
+        "Violent": {
+          "All": 633.4,
+          "Assault": 297.4,
+          "Murder": 8.5,
+          "Rape": 32.0,
+          "Robbery": 295.5
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 208483,
+          "Burglary": 56356,
+          "Larceny": 134355,
+          "Motor": 17772
+        },
+        "Violent": {
+          "All": 26249,
+          "Assault": 12323,
+          "Murder": 352,
+          "Rape": 1327,
+          "Robbery": 12247
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1977,
+    "Data": {
+      "Population": 4139000,
+      "Rates": {
+        "Property": {
+          "All": 5006.2,
+          "Burglary": 1400.0,
+          "Larceny": 3177.7,
+          "Motor": 428.5
+        },
+        "Violent": {
+          "All": 693.8,
+          "Assault": 358.9,
+          "Murder": 8.0,
+          "Rape": 34.8,
+          "Robbery": 292.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 207206,
+          "Burglary": 57946,
+          "Larceny": 131526,
+          "Motor": 17734
+        },
+        "Violent": {
+          "All": 28716,
+          "Assault": 14856,
+          "Murder": 333,
+          "Rape": 1439,
+          "Robbery": 12088
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1978,
+    "Data": {
+      "Population": 4143000,
+      "Rates": {
+        "Property": {
+          "All": 5081.6,
+          "Burglary": 1421.8,
+          "Larceny": 3235.0,
+          "Motor": 424.8
+        },
+        "Violent": {
+          "All": 732.0,
+          "Assault": 378.6,
+          "Murder": 8.2,
+          "Rape": 35.6,
+          "Robbery": 309.6
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 210530,
+          "Burglary": 58907,
+          "Larceny": 134024,
+          "Motor": 17599
+        },
+        "Violent": {
+          "All": 30328,
+          "Assault": 15686,
+          "Murder": 338,
+          "Rape": 1476,
+          "Robbery": 12828
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1979,
+    "Data": {
+      "Population": 4149000,
+      "Rates": {
+        "Property": {
+          "All": 5499.1,
+          "Burglary": 1509.5,
+          "Larceny": 3502.0,
+          "Motor": 487.6
+        },
+        "Violent": {
+          "All": 795.5,
+          "Assault": 415.2,
+          "Murder": 9.8,
+          "Rape": 39.4,
+          "Robbery": 331.2
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 228159,
+          "Burglary": 62630,
+          "Larceny": 145297,
+          "Motor": 20232
+        },
+        "Violent": {
+          "All": 33007,
+          "Assault": 17225,
+          "Murder": 406,
+          "Rape": 1636,
+          "Robbery": 13740
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1980,
+    "Data": {
+      "Population": 4192211,
+      "Rates": {
+        "Property": {
+          "All": 5777.7,
+          "Burglary": 1698.0,
+          "Larceny": 3629.2,
+          "Motor": 450.5
+        },
+        "Violent": {
+          "All": 852.4,
+          "Assault": 410.1,
+          "Murder": 9.5,
+          "Rape": 40.1,
+          "Robbery": 392.7
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 242214,
+          "Burglary": 71183,
+          "Larceny": 152144,
+          "Motor": 18887
+        },
+        "Violent": {
+          "All": 35735,
+          "Assault": 17194,
+          "Murder": 399,
+          "Rape": 1681,
+          "Robbery": 16461
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1981,
+    "Data": {
+      "Population": 4261000,
+      "Rates": {
+        "Property": {
+          "All": 5670.6,
+          "Burglary": 1660.2,
+          "Larceny": 3576.7,
+          "Motor": 433.7
+        },
+        "Violent": {
+          "All": 887.1,
+          "Assault": 414.0,
+          "Murder": 9.9,
+          "Rape": 38.8,
+          "Robbery": 424.4
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 241625,
+          "Burglary": 70740,
+          "Larceny": 152405,
+          "Motor": 18480
+        },
+        "Violent": {
+          "All": 37800,
+          "Assault": 17640,
+          "Murder": 421,
+          "Rape": 1654,
+          "Robbery": 18085
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1982,
+    "Data": {
+      "Population": 4265000,
+      "Rates": {
+        "Property": {
+          "All": 5162.3,
+          "Burglary": 1419.6,
+          "Larceny": 3350.6,
+          "Motor": 392.1
+        },
+        "Violent": {
+          "All": 850.0,
+          "Assault": 441.9,
+          "Murder": 10.1,
+          "Rape": 37.4,
+          "Robbery": 360.5
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 220174,
+          "Burglary": 60547,
+          "Larceny": 142903,
+          "Motor": 16724
+        },
+        "Violent": {
+          "All": 36254,
+          "Assault": 18849,
+          "Murder": 432,
+          "Rape": 1596,
+          "Robbery": 15377
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1983,
+    "Data": {
+      "Population": 4304000,
+      "Rates": {
+        "Property": {
+          "All": 4549.9,
+          "Burglary": 1224.4,
+          "Larceny": 2961.0,
+          "Motor": 364.5
+        },
+        "Violent": {
+          "All": 807.1,
+          "Assault": 418.4,
+          "Murder": 8.5,
+          "Rape": 32.8,
+          "Robbery": 347.4
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 195828,
+          "Burglary": 52697,
+          "Larceny": 127443,
+          "Motor": 15688
+        },
+        "Violent": {
+          "All": 34736,
+          "Assault": 18007,
+          "Murder": 367,
+          "Rape": 1412,
+          "Robbery": 14950
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1984,
+    "Data": {
+      "Population": 4349000,
+      "Rates": {
+        "Property": {
+          "All": 4422.3,
+          "Burglary": 1183.8,
+          "Larceny": 2841.3,
+          "Motor": 397.2
+        },
+        "Violent": {
+          "All": 792.3,
+          "Assault": 445.3,
+          "Murder": 8.1,
+          "Rape": 37.7,
+          "Robbery": 301.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 192325,
+          "Burglary": 51484,
+          "Larceny": 123567,
+          "Motor": 17274
+        },
+        "Violent": {
+          "All": 34455,
+          "Assault": 19364,
+          "Murder": 354,
+          "Rape": 1640,
+          "Robbery": 13097
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1985,
+    "Data": {
+      "Population": 4392000,
+      "Rates": {
+        "Property": {
+          "All": 4538.2,
+          "Burglary": 1206.6,
+          "Larceny": 2870.6,
+          "Motor": 461.0
+        },
+        "Violent": {
+          "All": 834.6,
+          "Assault": 485.8,
+          "Murder": 7.9,
+          "Rape": 38.7,
+          "Robbery": 302.2
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 199318,
+          "Burglary": 52995,
+          "Larceny": 126077,
+          "Motor": 20246
+        },
+        "Violent": {
+          "All": 36655,
+          "Assault": 21335,
+          "Murder": 348,
+          "Rape": 1700,
+          "Robbery": 13272
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1986,
+    "Data": {
+      "Population": 4463000,
+      "Rates": {
+        "Property": {
+          "All": 4768.8,
+          "Burglary": 1245.6,
+          "Larceny": 2977.9,
+          "Motor": 545.2
+        },
+        "Violent": {
+          "All": 833.0,
+          "Assault": 476.4,
+          "Murder": 9.0,
+          "Rape": 43.6,
+          "Robbery": 304.0
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 212831,
+          "Burglary": 55593,
+          "Larceny": 132904,
+          "Motor": 24334
+        },
+        "Violent": {
+          "All": 37177,
+          "Assault": 21263,
+          "Murder": 401,
+          "Rape": 1944,
+          "Robbery": 13569
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1987,
+    "Data": {
+      "Population": 4535000,
+      "Rates": {
+        "Property": {
+          "All": 4709.8,
+          "Burglary": 1162.5,
+          "Larceny": 2965.5,
+          "Motor": 581.8
+        },
+        "Violent": {
+          "All": 767.8,
+          "Assault": 428.3,
+          "Murder": 9.6,
+          "Rape": 39.6,
+          "Robbery": 290.3
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 213589,
+          "Burglary": 52718,
+          "Larceny": 134485,
+          "Motor": 26386
+        },
+        "Violent": {
+          "All": 34820,
+          "Assault": 19425,
+          "Murder": 436,
+          "Rape": 1795,
+          "Robbery": 13164
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1988,
+    "Data": {
+      "Population": 4644000,
+      "Rates": {
+        "Property": {
+          "All": 4897.9,
+          "Burglary": 1178.6,
+          "Larceny": 3047.1,
+          "Motor": 672.1
+        },
+        "Violent": {
+          "All": 806.8,
+          "Assault": 458.7,
+          "Murder": 9.7,
+          "Rape": 37.1,
+          "Robbery": 301.3
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 227457,
+          "Burglary": 54735,
+          "Larceny": 141509,
+          "Motor": 31213
+        },
+        "Violent": {
+          "All": 37466,
+          "Assault": 21302,
+          "Murder": 449,
+          "Rape": 1721,
+          "Robbery": 13994
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1989,
+    "Data": {
+      "Population": 4694000,
+      "Rates": {
+        "Property": {
+          "All": 4707.2,
+          "Burglary": 1123.5,
+          "Larceny": 2919.5,
+          "Motor": 664.2
+        },
+        "Violent": {
+          "All": 855.4,
+          "Assault": 473.7,
+          "Murder": 11.6,
+          "Rape": 38.0,
+          "Robbery": 332.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 220955,
+          "Burglary": 52735,
+          "Larceny": 137043,
+          "Motor": 31177
+        },
+        "Violent": {
+          "All": 40152,
+          "Assault": 22236,
+          "Murder": 544,
+          "Rape": 1783,
+          "Robbery": 15589
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1990,
+    "Data": {
+      "Population": 4781468,
+      "Rates": {
+        "Property": {
+          "All": 4911.5,
+          "Burglary": 1119.9,
+          "Larceny": 3082.9,
+          "Motor": 708.7
+        },
+        "Violent": {
+          "All": 919.0,
+          "Assault": 497.9,
+          "Murder": 11.5,
+          "Rape": 45.7,
+          "Robbery": 363.8
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 234842,
+          "Burglary": 53549,
+          "Larceny": 147407,
+          "Motor": 33886
+        },
+        "Violent": {
+          "All": 43940,
+          "Assault": 23809,
+          "Murder": 552,
+          "Rape": 2185,
+          "Robbery": 17394
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1991,
+    "Data": {
+      "Population": 4860000,
+      "Rates": {
+        "Property": {
+          "All": 5253.1,
+          "Burglary": 1157.6,
+          "Larceny": 3364.7,
+          "Motor": 730.8
+        },
+        "Violent": {
+          "All": 956.2,
+          "Assault": 491.5,
+          "Murder": 11.7,
+          "Rape": 45.9,
+          "Robbery": 407.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 255299,
+          "Burglary": 56258,
+          "Larceny": 163524,
+          "Motor": 35517
+        },
+        "Violent": {
+          "All": 46469,
+          "Assault": 23888,
+          "Murder": 569,
+          "Rape": 2229,
+          "Robbery": 19783
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1992,
+    "Data": {
+      "Population": 4908000,
+      "Rates": {
+        "Property": {
+          "All": 5224.5,
+          "Burglary": 1131.2,
+          "Larceny": 3366.8,
+          "Motor": 726.4
+        },
+        "Violent": {
+          "All": 1000.1,
+          "Assault": 512.6,
+          "Murder": 12.1,
+          "Rape": 46.4,
+          "Robbery": 429.0
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 256418,
+          "Burglary": 55520,
+          "Larceny": 165244,
+          "Motor": 35654
+        },
+        "Violent": {
+          "All": 49085,
+          "Assault": 25157,
+          "Murder": 596,
+          "Rape": 2278,
+          "Robbery": 21054
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1993,
+    "Data": {
+      "Population": 4965000,
+      "Rates": {
+        "Property": {
+          "All": 5108.7,
+          "Burglary": 1132.8,
+          "Larceny": 3292.5,
+          "Motor": 683.4
+        },
+        "Violent": {
+          "All": 997.8,
+          "Assault": 506.4,
+          "Murder": 12.7,
+          "Rape": 44.0,
+          "Robbery": 434.7
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 253647,
+          "Burglary": 56246,
+          "Larceny": 163471,
+          "Motor": 33930
+        },
+        "Violent": {
+          "All": 49540,
+          "Assault": 25141,
+          "Murder": 632,
+          "Rape": 2185,
+          "Robbery": 21582
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1994,
+    "Data": {
+      "Population": 5006000,
+      "Rates": {
+        "Property": {
+          "All": 5174.6,
+          "Burglary": 1043.4,
+          "Larceny": 3368.1,
+          "Motor": 763.0
+        },
+        "Violent": {
+          "All": 948.0,
+          "Assault": 493.3,
+          "Murder": 11.6,
+          "Rape": 40.7,
+          "Robbery": 402.5
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 259039,
+          "Burglary": 52234,
+          "Larceny": 168608,
+          "Motor": 38197
+        },
+        "Violent": {
+          "All": 47457,
+          "Assault": 24696,
+          "Murder": 579,
+          "Rape": 2035,
+          "Robbery": 20147
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1995,
+    "Data": {
+      "Population": 5042000,
+      "Rates": {
+        "Property": {
+          "All": 5307.9,
+          "Burglary": 1057.5,
+          "Larceny": 3532.8,
+          "Motor": 717.6
+        },
+        "Violent": {
+          "All": 986.9,
+          "Assault": 509.7,
+          "Murder": 11.8,
+          "Rape": 42.2,
+          "Robbery": 423.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 267625,
+          "Burglary": 53320,
+          "Larceny": 178126,
+          "Motor": 36179
+        },
+        "Violent": {
+          "All": 49757,
+          "Assault": 25697,
+          "Murder": 596,
+          "Rape": 2130,
+          "Robbery": 21334
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1996,
+    "Data": {
+      "Population": 5072000,
+      "Rates": {
+        "Property": {
+          "All": 5130.7,
+          "Burglary": 992.3,
+          "Larceny": 3427.0,
+          "Motor": 711.4
+        },
+        "Violent": {
+          "All": 931.2,
+          "Assault": 488.8,
+          "Murder": 11.6,
+          "Rape": 37.6,
+          "Robbery": 393.2
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 260231,
+          "Burglary": 50331,
+          "Larceny": 173817,
+          "Motor": 36083
+        },
+        "Violent": {
+          "All": 47230,
+          "Assault": 24793,
+          "Murder": 588,
+          "Rape": 1905,
+          "Robbery": 19944
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1997,
+    "Data": {
+      "Population": 5094000,
+      "Rates": {
+        "Property": {
+          "All": 4806.5,
+          "Burglary": 940.7,
+          "Larceny": 3263.8,
+          "Motor": 602.0
+        },
+        "Violent": {
+          "All": 846.6,
+          "Assault": 464.4,
+          "Murder": 9.9,
+          "Rape": 35.6,
+          "Robbery": 336.8
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 244842,
+          "Burglary": 47918,
+          "Larceny": 166256,
+          "Motor": 30668
+        },
+        "Violent": {
+          "All": 43127,
+          "Assault": 23654,
+          "Murder": 502,
+          "Rape": 1814,
+          "Robbery": 17157
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1998,
+    "Data": {
+      "Population": 5135000,
+      "Rates": {
+        "Property": {
+          "All": 4569.1,
+          "Burglary": 922.9,
+          "Larceny": 3096.8,
+          "Motor": 549.4
+        },
+        "Violent": {
+          "All": 796.6,
+          "Assault": 454.5,
+          "Murder": 10.0,
+          "Rape": 33.4,
+          "Robbery": 298.7
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 234624,
+          "Burglary": 47393,
+          "Larceny": 159019,
+          "Motor": 28212
+        },
+        "Violent": {
+          "All": 40903,
+          "Assault": 23337,
+          "Murder": 513,
+          "Rape": 1714,
+          "Robbery": 15339
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 1999,
+    "Data": {
+      "Population": 5171634,
+      "Rates": {
+        "Property": {
+          "All": 4176.1,
+          "Burglary": 835.9,
+          "Larceny": 2848.2,
+          "Motor": 492.0
+        },
+        "Violent": {
+          "All": 743.4,
+          "Assault": 440.8,
+          "Murder": 9.0,
+          "Rape": 30.0,
+          "Robbery": 263.7
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 215973,
+          "Burglary": 43230,
+          "Larceny": 147296,
+          "Motor": 25447
+        },
+        "Violent": {
+          "All": 38447,
+          "Assault": 22795,
+          "Murder": 465,
+          "Rape": 1551,
+          "Robbery": 13636
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2000,
+    "Data": {
+      "Population": 5296486,
+      "Rates": {
+        "Property": {
+          "All": 4029.5,
+          "Burglary": 744.4,
+          "Larceny": 2745.7,
+          "Motor": 539.5
+        },
+        "Violent": {
+          "All": 786.6,
+          "Assault": 493.3,
+          "Murder": 8.1,
+          "Rape": 29.1,
+          "Robbery": 256.0
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 213422,
+          "Burglary": 39426,
+          "Larceny": 145423,
+          "Motor": 28573
+        },
+        "Violent": {
+          "All": 41663,
+          "Assault": 26130,
+          "Murder": 430,
+          "Rape": 1543,
+          "Robbery": 13560
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2001,
+    "Data": {
+      "Population": 5386079,
+      "Rates": {
+        "Property": {
+          "All": 4075.5,
+          "Burglary": 771.5,
+          "Larceny": 2709.5,
+          "Motor": 594.6
+        },
+        "Violent": {
+          "All": 781.4,
+          "Assault": 495.1,
+          "Murder": 8.3,
+          "Rape": 26.9,
+          "Robbery": 251.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 219512,
+          "Burglary": 41553,
+          "Larceny": 145934,
+          "Motor": 32025
+        },
+        "Violent": {
+          "All": 42088,
+          "Assault": 26668,
+          "Murder": 446,
+          "Rape": 1449,
+          "Robbery": 13525
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2002,
+    "Data": {
+      "Population": 5450525,
+      "Rates": {
+        "Property": {
+          "All": 3983.2,
+          "Burglary": 729.6,
+          "Larceny": 2629.5,
+          "Motor": 624.2
+        },
+        "Violent": {
+          "All": 770.8,
+          "Assault": 490.1,
+          "Murder": 9.4,
+          "Rape": 25.1,
+          "Robbery": 246.2
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 217105,
+          "Burglary": 39765,
+          "Larceny": 143320,
+          "Motor": 34020
+        },
+        "Violent": {
+          "All": 42015,
+          "Assault": 26715,
+          "Murder": 513,
+          "Rape": 1370,
+          "Robbery": 13417
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2003,
+    "Data": {
+      "Population": 5512310,
+      "Rates": {
+        "Property": {
+          "All": 3799.1,
+          "Burglary": 701.0,
+          "Larceny": 2437.7,
+          "Motor": 660.4
+        },
+        "Violent": {
+          "All": 703.5,
+          "Assault": 428.0,
+          "Murder": 9.5,
+          "Rape": 24.6,
+          "Robbery": 241.3
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 209418,
+          "Burglary": 38641,
+          "Larceny": 134372,
+          "Motor": 36405
+        },
+        "Violent": {
+          "All": 38778,
+          "Assault": 23593,
+          "Murder": 525,
+          "Rape": 1358,
+          "Robbery": 13302
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2004,
+    "Data": {
+      "Population": 5561332,
+      "Rates": {
+        "Property": {
+          "All": 3640.7,
+          "Burglary": 660.0,
+          "Larceny": 2335.6,
+          "Motor": 645.2
+        },
+        "Violent": {
+          "All": 700.6,
+          "Assault": 437.9,
+          "Murder": 9.4,
+          "Rape": 23.7,
+          "Robbery": 229.7
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 202474,
+          "Burglary": 36704,
+          "Larceny": 129888,
+          "Motor": 35882
+        },
+        "Violent": {
+          "All": 38961,
+          "Assault": 24351,
+          "Murder": 521,
+          "Rape": 1317,
+          "Robbery": 12772
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2005,
+    "Data": {
+      "Population": 5589599,
+      "Rates": {
+        "Property": {
+          "All": 3551.0,
+          "Burglary": 642.7,
+          "Larceny": 2299.0,
+          "Motor": 610.0
+        },
+        "Violent": {
+          "All": 704.0,
+          "Assault": 414.6,
+          "Murder": 9.9,
+          "Rape": 22.6,
+          "Robbery": 257.2
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 198483,
+          "Burglary": 35922,
+          "Larceny": 128491,
+          "Motor": 34070
+        },
+        "Violent": {
+          "All": 39369,
+          "Assault": 23173,
+          "Murder": 552,
+          "Rape": 1266,
+          "Robbery": 14378
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2006,
+    "Data": {
+      "Population": 5615727,
+      "Rates": {
+        "Property": {
+          "All": 3481.0,
+          "Burglary": 667.0,
+          "Larceny": 2270.4,
+          "Motor": 543.5
+        },
+        "Violent": {
+          "All": 678.6,
+          "Assault": 392.0,
+          "Murder": 9.7,
+          "Rape": 21.0,
+          "Robbery": 256.0
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 195484,
+          "Burglary": 37459,
+          "Larceny": 127502,
+          "Motor": 30523
+        },
+        "Violent": {
+          "All": 38111,
+          "Assault": 22011,
+          "Murder": 546,
+          "Rape": 1178,
+          "Robbery": 14376
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2007,
+    "Data": {
+      "Population": 5618344,
+      "Rates": {
+        "Property": {
+          "All": 3431.5,
+          "Burglary": 660.2,
+          "Larceny": 2265.9,
+          "Motor": 505.4
+        },
+        "Violent": {
+          "All": 641.9,
+          "Assault": 375.1,
+          "Murder": 9.9,
+          "Rape": 21.0,
+          "Robbery": 236.0
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 192796,
+          "Burglary": 37095,
+          "Larceny": 127308,
+          "Motor": 28393
+        },
+        "Violent": {
+          "All": 36063,
+          "Assault": 21072,
+          "Murder": 554,
+          "Rape": 1179,
+          "Robbery": 13258
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2008,
+    "Data": {
+      "Population": 5633597,
+      "Rates": {
+        "Property": {
+          "All": 3517.6,
+          "Burglary": 689.6,
+          "Larceny": 2378.3,
+          "Motor": 449.7
+        },
+        "Violent": {
+          "All": 628.2,
+          "Assault": 365.1,
+          "Murder": 8.8,
+          "Rape": 20.0,
+          "Robbery": 234.4
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 198165,
+          "Burglary": 38849,
+          "Larceny": 133983,
+          "Motor": 25333
+        },
+        "Violent": {
+          "All": 35393,
+          "Assault": 20570,
+          "Murder": 493,
+          "Rape": 1127,
+          "Robbery": 13203
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2009,
+    "Data": {
+      "Population": 5699478,
+      "Rates": {
+        "Property": {
+          "All": 3198.5,
+          "Burglary": 647.5,
+          "Larceny": 2206.7,
+          "Motor": 344.2
+        },
+        "Violent": {
+          "All": 590.0,
+          "Assault": 351.3,
+          "Murder": 7.7,
+          "Rape": 20.3,
+          "Robbery": 210.7
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 182295,
+          "Burglary": 36905,
+          "Larceny": 125771,
+          "Motor": 19619
+        },
+        "Violent": {
+          "All": 33625,
+          "Assault": 20022,
+          "Murder": 440,
+          "Rape": 1156,
+          "Robbery": 12007
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2010,
+    "Data": {
+      "Population": 5785681,
+      "Rates": {
+        "Property": {
+          "All": 2995.5,
+          "Burglary": 634.4,
+          "Larceny": 2049.5,
+          "Motor": 311.6
+        },
+        "Violent": {
+          "All": 546.3,
+          "Assault": 326.7,
+          "Murder": 7.4,
+          "Rape": 21.2,
+          "Robbery": 191.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 173309,
+          "Burglary": 36704,
+          "Larceny": 118578,
+          "Motor": 18027
+        },
+        "Violent": {
+          "All": 31607,
+          "Assault": 18899,
+          "Murder": 426,
+          "Rape": 1228,
+          "Robbery": 11054
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2011,
+    "Data": {
+      "Population": 5839572,
+      "Rates": {
+        "Property": {
+          "All": 2857.2,
+          "Burglary": 613.5,
+          "Larceny": 1968.5,
+          "Motor": 275.2
+        },
+        "Violent": {
+          "All": 493.5,
+          "Assault": 289.0,
+          "Murder": 6.8,
+          "Rape": 20.5,
+          "Robbery": 177.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 166846,
+          "Burglary": 35823,
+          "Larceny": 114951,
+          "Motor": 16072
+        },
+        "Violent": {
+          "All": 28817,
+          "Assault": 16876,
+          "Murder": 399,
+          "Rape": 1200,
+          "Robbery": 10342
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2012,
+    "Data": {
+      "Population": 5884563,
+      "Rates": {
+        "Property": {
+          "All": 2753.5,
+          "Burglary": 573.2,
+          "Larceny": 1924.9,
+          "Motor": 255.3
+        },
+        "Violent": {
+          "All": 476.8,
+          "Assault": 277.2,
+          "Murder": 6.3,
+          "Rape": 21.0,
+          "Robbery": 172.3
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 162031,
+          "Burglary": 33732,
+          "Larceny": 113274,
+          "Motor": 15025
+        },
+        "Violent": {
+          "All": 28055,
+          "Assault": 16310,
+          "Murder": 369,
+          "Rape": 1235,
+          "Robbery": 10141
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2013,
+    "Data": {
+      "Population": 5928814,
+      "Rates": {
+        "Property": {
+          "All": 2663.5,
+          "Burglary": 538.9,
+          "Larceny": 1898.3,
+          "Motor": 226.3
+        },
+        "Violent": {
+          "All": 473.8,
+          "Assault": 272.0,
+          "Murder": 6.4,
+          "Rape": 25.8,
+          "Robbery": 169.5
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 157913,
+          "Burglary": 31949,
+          "Larceny": 112546,
+          "Motor": 13418
+        },
+        "Violent": {
+          "All": 28089,
+          "Assault": 16128,
+          "Murder": 381,
+          "Rape": 1532,
+          "Robbery": 10048
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2014,
+    "Data": {
+      "Population": 5976407,
+      "Rates": {
+        "Property": {
+          "All": 2507.5,
+          "Burglary": 468.7,
+          "Larceny": 1819.6,
+          "Motor": 219.2
+        },
+        "Violent": {
+          "All": 446.1,
+          "Assault": 253.2,
+          "Murder": 6.1,
+          "Rape": 27.1,
+          "Robbery": 159.7
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 149859,
+          "Burglary": 28012,
+          "Larceny": 108745,
+          "Motor": 13102
+        },
+        "Violent": {
+          "All": 26661,
+          "Assault": 15133,
+          "Murder": 365,
+          "Rape": 1619,
+          "Robbery": 9544
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2015,
+    "Data": {
+      "Population": 6006401,
+      "Rates": {
+        "Property": {
+          "All": 2315.0,
+          "Burglary": 427.5,
+          "Larceny": 1668.5,
+          "Motor": 218.9
+        },
+        "Violent": {
+          "All": 457.2,
+          "Assault": 256.7,
+          "Murder": 8.6,
+          "Rape": 27.7,
+          "Robbery": 164.2
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 139048,
+          "Burglary": 25678,
+          "Larceny": 100219,
+          "Motor": 13151
+        },
+        "Violent": {
+          "All": 27462,
+          "Assault": 15417,
+          "Murder": 516,
+          "Rape": 1666,
+          "Robbery": 9863
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2016,
+    "Data": {
+      "Population": 6016447,
+      "Rates": {
+        "Property": {
+          "All": 2284.5,
+          "Burglary": 410.4,
+          "Larceny": 1677.4,
+          "Motor": 196.7
+        },
+        "Violent": {
+          "All": 472.0,
+          "Assault": 263.8,
+          "Murder": 8.0,
+          "Rape": 29.2,
+          "Robbery": 171.0
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 137445,
+          "Burglary": 24692,
+          "Larceny": 100919,
+          "Motor": 11834
+        },
+        "Violent": {
+          "All": 28400,
+          "Assault": 15874,
+          "Murder": 481,
+          "Rape": 1756,
+          "Robbery": 10289
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2017,
+    "Data": {
+      "Population": 6052177,
+      "Rates": {
+        "Property": {
+          "All": 2222.3,
+          "Burglary": 388.4,
+          "Larceny": 1609.7,
+          "Motor": 224.2
+        },
+        "Violent": {
+          "All": 500.2,
+          "Assault": 278.2,
+          "Murder": 9.0,
+          "Rape": 27.9,
+          "Robbery": 185.1
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 134496,
+          "Burglary": 23508,
+          "Larceny": 97420,
+          "Motor": 13568
+        },
+        "Violent": {
+          "All": 30273,
+          "Assault": 16836,
+          "Murder": 546,
+          "Rape": 1691,
+          "Robbery": 11200
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2018,
+    "Data": {
+      "Population": 6042718,
+      "Rates": {
+        "Property": {
+          "All": 2033.3,
+          "Burglary": 312.6,
+          "Larceny": 1519.8,
+          "Motor": 200.9
+        },
+        "Violent": {
+          "All": 468.7,
+          "Assault": 267.0,
+          "Murder": 8.1,
+          "Rape": 32.8,
+          "Robbery": 160.8
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 122864,
+          "Burglary": 18892,
+          "Larceny": 91835,
+          "Motor": 12137
+        },
+        "Violent": {
+          "All": 28320,
+          "Assault": 16135,
+          "Murder": 490,
+          "Rape": 1979,
+          "Robbery": 9716
+        }
+      }
+    }
+  },
+  {
+    "State": "Maryland",
+    "Year": 2019,
+    "Data": {
+      "Population": 6045680,
+      "Rates": {
+        "Property": {
+          "All": 1950.2,
+          "Burglary": 278.9,
+          "Larceny": 1485.0,
+          "Motor": 186.2
+        },
+        "Violent": {
+          "All": 454.1,
+          "Assault": 261.3,
+          "Murder": 9.0,
+          "Rape": 31.6,
+          "Robbery": 152.2
+        }
+      },
+      "Totals": {
+        "Property": {
+          "All": 117901,
+          "Burglary": 16862,
+          "Larceny": 89780,
+          "Motor": 11259
+        },
+        "Violent": {
+          "All": 27456,
+          "Assault": 15798,
+          "Murder": 542,
+          "Rape": 1913,
+          "Robbery": 9203
+        }
+      }
+    }
+  }]

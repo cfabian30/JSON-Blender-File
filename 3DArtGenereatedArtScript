@@ -1,0 +1,137 @@
+import json
+import bpy
+import random
+
+
+#json file from https://corgis-edu.github.io/corgis/json/state_crime/
+bar_height = 1
+Cube_location = random.randint(-10, 20)
+#range is 0 - 59 this equates to 1960-2019
+#json_list_number = random.randint(0, 59)
+json_list_number = (59)
+with open('/Users/ciarafabian/Desktop/UMD/api data/maryland_data.json') as f:
+    j = json.load (f)
+    #Go through list find assault data (change number of each data_num ex set first number of list to 3 to populate a different data set
+    data_num_year = j[json_list_number]['Year']
+    data_num_population = j[json_list_number]['Data']['Population']
+    data_num_Assaults = j[json_list_number]['Data']['Totals']['Violent']['Assault']
+    data_num_murders = j[json_list_number]['Data']['Totals']['Violent']['Murder']
+    data_num_rape = j[json_list_number]['Data']['Totals']['Violent']['Rape']
+    data_num_robbery = j[json_list_number]['Data']['Totals']['Violent']['Robbery']
+    #print(data_num_year)
+    
+    #set data to int
+    Assault_data = int(data_num_Assaults)
+    murder_data = int(data_num_murders)
+    rape_data = int(data_num_rape)
+    robbery_data = int(data_num_robbery)
+    #set data to string
+    Assault_data_string = str(data_num_Assaults)
+    murder_data_string = str(data_num_murders)
+    rape_data_string = str(data_num_rape)
+    robbery_data_string = str(data_num_robbery)
+    year_data_string = str(data_num_year)
+    population_data_string = str(data_num_population)
+    #print(type(Assault_data_string))
+    
+    #https://www.youtube.com/watch?v=Xrixs_XuDQo
+    #https://www.youtube.com/watch?v=Xrixs_XuDQo
+    
+    #Assault Data
+for mesh in bpy.data.meshes:
+    bpy.data.meshes.remove(mesh)
+    
+for i in range (Assault_data//200):
+    #create a cube
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    
+    #set location
+    bpy.ops.transform.rotate(value= random.randint(-10, 20), orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.rotate(value=random.randint(-10, 20), orient_axis='Y', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.translate(value=(random.randint(-10, 20), random.randint(-10, 20), random.randint(-10, 20)), orient_axis_ortho='X')
+    bar_assault=bpy.context.object
+    
+    #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("MaterialBar")
+    # create material
+    mat = bpy.data.materials.new(name="MaterialBar")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (1, 0, 0.0192828, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+
+
+for i in range (murder_data//20):
+    #create a cube
+    bpy.ops.mesh.primitive_uv_sphere_add(scale=(1, 1, 1))
+    
+    #set location
+    bpy.ops.transform.rotate(value= random.randint(-10, 20), orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.rotate(value=random.randint(-10, 20), orient_axis='Y', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.translate(value=(random.randint(-10, 20), random.randint(-10, 20), random.randint(-10, 20)), orient_axis_ortho='X')
+    bar_assault=bpy.context.object
+    
+    #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("MaterialBar")
+    # create material
+    mat = bpy.data.materials.new(name="MaterialBar")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (0.8, 0.00301904, 0.770523, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+    
+for i in range (rape_data//100):
+    #create a cube
+
+    bpy.ops.mesh.primitive_uv_sphere_add(scale=(1, 1, 1))
+
+
+    #set location
+    bpy.ops.transform.rotate(value= random.randint(-10, 20), orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.rotate(value=random.randint(-10, 20), orient_axis='Y', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.translate(value=(random.randint(-10, 20), random.randint(-10, 20), random.randint(-10, 20)), orient_axis_ortho='X')
+    bar_assault=bpy.context.object
+    
+    #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("MaterialBar")
+    # create material
+    mat = bpy.data.materials.new(name="MaterialBar")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (0, 0.8, 0.00447227, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+    
+    
+for i in range (robbery_data//200):
+    #create a cube
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    
+    #set location
+    bpy.ops.transform.rotate(value= random.randint(-10, 20), orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.rotate(value=random.randint(-10, 20), orient_axis='Y', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL')
+    bpy.ops.transform.translate(value=(random.randint(-10, 20), random.randint(-10, 20), random.randint(-10, 20)), orient_axis_ortho='X')
+    bar_assault=bpy.context.object
+    
+    #color
+    ob = bpy.context.active_object
+    # Get material
+    mat = bpy.data.materials.get("MaterialBar")
+    # create material
+    mat = bpy.data.materials.new(name="MaterialBar")
+    # Assign it to object
+    # create material slot
+    ob.data.materials.append(mat)
+    bpy.context.object.active_material.diffuse_color = (0, 0.00496021, 0.8, 1)
+    bpy.context.object.active_material.metallic = 0.429319
+
+    
+  
